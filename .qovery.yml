@@ -1,0 +1,11 @@
+---
+application:
+  name: "fun4fun-game"
+  project: "test"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-fun4fun-game"
+  routes:
+  - application_name: "fun4fun-game"
+    paths:
+    - "/*"
